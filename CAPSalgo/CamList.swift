@@ -7,30 +7,34 @@
 //
 
 import Foundation
+import MapKit
 
 struct CamList: Decodable {
     enum Category: String, Decodable {
         case swift, combine, debugging, xcode
     }
-    
-    // I know I don't need to actually document all these, it just made it easier for me to reference
-    
-    let id: Int?
-    let controlType: String?
-    let imageSupported: Int
-    let imageURL: String?
-    let lastUpdate: String?
-    let organizationId: String?
-    let latitude: Int?
-    let longitude: Int?
-    let streamUrl: String?
-    let primaryRoad: String?
-    let mileMarker: Int?
-    let direction: String?
-    let crossStreet: String?
-    let requestCommand: String?
-    let name: String?
-    let deviceId: Int?
-    let accessLevelId: Int?
-    let archived: Bool?
+    var cameras = [Camera]()
+    // because the API returns a top-level dictionary containing one array
+}
+
+// I know I don't need to technically use all these, it just made it easier for me to reference and test
+struct Camera: Decodable {
+    var id: Int
+    var controlType: String
+    var imageSupported: Int
+    var imageUrl: String
+    var lastUpdate: String
+    var organizationId: String
+    var latitude: CLLocationDegrees
+    var longitude: CLLocationDegrees
+    var streamUrl: String
+    var primaryRoad: String
+    var mileMarker: Decimal
+    var direction: String
+    var crossStreet: String
+    var requestCommand: String
+    var name: String
+    var deviceId: Int
+    var accessLevelId: Int
+    var archived: Bool
 }

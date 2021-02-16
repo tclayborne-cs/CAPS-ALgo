@@ -13,33 +13,16 @@
 		5F84C2F925D845B4009E46A0 /* CAPSalgo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5F84C2F725D845B4009E46A0 /* CAPSalgo.xcdatamodeld */; };
 		5F84C2FB25D845B6009E46A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F84C2FA25D845B6009E46A0 /* Assets.xcassets */; };
 		5F84C2FE25D845B6009E46A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F84C2FC25D845B6009E46A0 /* LaunchScreen.storyboard */; };
-		5F84C30925D845B6009E46A0 /* CAPSalgoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F84C30825D845B6009E46A0 /* CAPSalgoTests.swift */; };
-		5F84C31425D845B6009E46A0 /* CAPSalgoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F84C31325D845B6009E46A0 /* CAPSalgoUITests.swift */; };
 		5F84C32325D84610009E46A0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F84C32225D84610009E46A0 /* MapKit.framework */; };
 		5F84C32925D866A9009E46A0 /* CamList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F84C32825D866A9009E46A0 /* CamList.swift */; };
 		5F84C32B25D874EC009E46A0 /* LocationSearchTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F84C32A25D874EC009E46A0 /* LocationSearchTable.swift */; };
-		5F84C32D25D891B3009E46A0 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F84C32C25D891B3009E46A0 /* Network.swift */; };
-		5F84C32F25D895DA009E46A0 /* CamsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F84C32E25D895DA009E46A0 /* CamsViewController.swift */; };
+		5FA6914725DBA68500872018 /* CameraLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA6914625DBA68500872018 /* CameraLocation.swift */; };
+		5FA6914925DBD3B100872018 /* help.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA6914825DBD3B100872018 /* help.swift */; };
+		5FF36E9525DB7B9100196175 /* camList.json in Resources */ = {isa = PBXBuildFile; fileRef = 5FF36E9425DB7B9100196175 /* camList.json */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		5F84C30525D845B6009E46A0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5F84C2E525D845B4009E46A0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5F84C2EC25D845B4009E46A0;
-			remoteInfo = CAPSalgo;
-		};
-		5F84C31025D845B6009E46A0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5F84C2E525D845B4009E46A0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5F84C2EC25D845B4009E46A0;
-			remoteInfo = CAPSalgo;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		419D7DFB8334BC3B9776025D /* Pods_CAPSalgo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CAPSalgo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F84C2ED25D845B4009E46A0 /* CAPSalgo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAPSalgo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F84C2F025D845B4009E46A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F84C2F225D845B4009E46A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,18 +31,14 @@
 		5F84C2FA25D845B6009E46A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F84C2FD25D845B6009E46A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F84C2FF25D845B6009E46A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5F84C30425D845B6009E46A0 /* CAPSalgoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAPSalgoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F84C30825D845B6009E46A0 /* CAPSalgoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAPSalgoTests.swift; sourceTree = "<group>"; };
-		5F84C30A25D845B6009E46A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5F84C30F25D845B6009E46A0 /* CAPSalgoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAPSalgoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F84C31325D845B6009E46A0 /* CAPSalgoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAPSalgoUITests.swift; sourceTree = "<group>"; };
-		5F84C31525D845B6009E46A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F84C32225D84610009E46A0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		5F84C32525D849AD009E46A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		5F84C32825D866A9009E46A0 /* CamList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamList.swift; sourceTree = "<group>"; };
 		5F84C32A25D874EC009E46A0 /* LocationSearchTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchTable.swift; sourceTree = "<group>"; };
-		5F84C32C25D891B3009E46A0 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
-		5F84C32E25D895DA009E46A0 /* CamsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamsViewController.swift; sourceTree = "<group>"; };
+		5FA6914625DBA68500872018 /* CameraLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraLocation.swift; sourceTree = "<group>"; };
+		5FA6914825DBD3B100872018 /* help.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = help.swift; sourceTree = "<group>"; };
+		5FD37BF225DB81E7000FA7FD /* Headers */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Headers; path = Pods/Headers; sourceTree = "<group>"; };
+		5FF36E9425DB7B9100196175 /* camList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = camList.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,20 +50,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5F84C30125D845B6009E46A0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5F84C30C25D845B6009E46A0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -92,8 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				5F84C2EF25D845B4009E46A0 /* CAPSalgo */,
-				5F84C30725D845B6009E46A0 /* CAPSalgoTests */,
-				5F84C31225D845B6009E46A0 /* CAPSalgoUITests */,
 				5F84C2EE25D845B4009E46A0 /* Products */,
 				5F84C32125D84610009E46A0 /* Frameworks */,
 			);
@@ -103,8 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				5F84C2ED25D845B4009E46A0 /* CAPSalgo.app */,
-				5F84C30425D845B6009E46A0 /* CAPSalgoTests.xctest */,
-				5F84C30F25D845B6009E46A0 /* CAPSalgoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -114,11 +75,12 @@
 			children = (
 				5F84C2F025D845B4009E46A0 /* AppDelegate.swift */,
 				5F84C2F225D845B4009E46A0 /* ViewController.swift */,
-				5F84C32A25D874EC009E46A0 /* LocationSearchTable.swift */,
-				5F84C32C25D891B3009E46A0 /* Network.swift */,
 				5F84C32825D866A9009E46A0 /* CamList.swift */,
-				5F84C32E25D895DA009E46A0 /* CamsViewController.swift */,
+				5FA6914625DBA68500872018 /* CameraLocation.swift */,
+				5F84C32A25D874EC009E46A0 /* LocationSearchTable.swift */,
+				5FA6914825DBD3B100872018 /* help.swift */,
 				5F84C2F425D845B4009E46A0 /* Main.storyboard */,
+				5FF36E9425DB7B9100196175 /* camList.json */,
 				5F84C2FA25D845B6009E46A0 /* Assets.xcassets */,
 				5F84C2FC25D845B6009E46A0 /* LaunchScreen.storyboard */,
 				5F84C2FF25D845B6009E46A0 /* Info.plist */,
@@ -127,28 +89,12 @@
 			path = CAPSalgo;
 			sourceTree = "<group>";
 		};
-		5F84C30725D845B6009E46A0 /* CAPSalgoTests */ = {
-			isa = PBXGroup;
-			children = (
-				5F84C30825D845B6009E46A0 /* CAPSalgoTests.swift */,
-				5F84C30A25D845B6009E46A0 /* Info.plist */,
-			);
-			path = CAPSalgoTests;
-			sourceTree = "<group>";
-		};
-		5F84C31225D845B6009E46A0 /* CAPSalgoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				5F84C31325D845B6009E46A0 /* CAPSalgoUITests.swift */,
-				5F84C31525D845B6009E46A0 /* Info.plist */,
-			);
-			path = CAPSalgoUITests;
-			sourceTree = "<group>";
-		};
 		5F84C32125D84610009E46A0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5FD37BF225DB81E7000FA7FD /* Headers */,
 				5F84C32225D84610009E46A0 /* MapKit.framework */,
+				419D7DFB8334BC3B9776025D /* Pods_CAPSalgo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -173,42 +119,6 @@
 			productReference = 5F84C2ED25D845B4009E46A0 /* CAPSalgo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5F84C30325D845B6009E46A0 /* CAPSalgoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5F84C31B25D845B6009E46A0 /* Build configuration list for PBXNativeTarget "CAPSalgoTests" */;
-			buildPhases = (
-				5F84C30025D845B6009E46A0 /* Sources */,
-				5F84C30125D845B6009E46A0 /* Frameworks */,
-				5F84C30225D845B6009E46A0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5F84C30625D845B6009E46A0 /* PBXTargetDependency */,
-			);
-			name = CAPSalgoTests;
-			productName = CAPSalgoTests;
-			productReference = 5F84C30425D845B6009E46A0 /* CAPSalgoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		5F84C30E25D845B6009E46A0 /* CAPSalgoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5F84C31E25D845B6009E46A0 /* Build configuration list for PBXNativeTarget "CAPSalgoUITests" */;
-			buildPhases = (
-				5F84C30B25D845B6009E46A0 /* Sources */,
-				5F84C30C25D845B6009E46A0 /* Frameworks */,
-				5F84C30D25D845B6009E46A0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5F84C31125D845B6009E46A0 /* PBXTargetDependency */,
-			);
-			name = CAPSalgoUITests;
-			productName = CAPSalgoUITests;
-			productReference = 5F84C30F25D845B6009E46A0 /* CAPSalgoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -227,14 +137,6 @@
 							};
 						};
 					};
-					5F84C30325D845B6009E46A0 = {
-						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = 5F84C2EC25D845B4009E46A0;
-					};
-					5F84C30E25D845B6009E46A0 = {
-						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = 5F84C2EC25D845B4009E46A0;
-					};
 				};
 			};
 			buildConfigurationList = 5F84C2E825D845B4009E46A0 /* Build configuration list for PBXProject "CAPSalgo" */;
@@ -251,8 +153,6 @@
 			projectRoot = "";
 			targets = (
 				5F84C2EC25D845B4009E46A0 /* CAPSalgo */,
-				5F84C30325D845B6009E46A0 /* CAPSalgoTests */,
-				5F84C30E25D845B6009E46A0 /* CAPSalgoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -263,22 +163,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F84C2FE25D845B6009E46A0 /* LaunchScreen.storyboard in Resources */,
+				5FF36E9525DB7B9100196175 /* camList.json in Resources */,
 				5F84C2FB25D845B6009E46A0 /* Assets.xcassets in Resources */,
 				5F84C2F625D845B4009E46A0 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5F84C30225D845B6009E46A0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5F84C30D25D845B6009E46A0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,44 +178,15 @@
 			files = (
 				5F84C2F925D845B4009E46A0 /* CAPSalgo.xcdatamodeld in Sources */,
 				5F84C32B25D874EC009E46A0 /* LocationSearchTable.swift in Sources */,
-				5F84C32D25D891B3009E46A0 /* Network.swift in Sources */,
-				5F84C32F25D895DA009E46A0 /* CamsViewController.swift in Sources */,
 				5F84C32925D866A9009E46A0 /* CamList.swift in Sources */,
 				5F84C2F325D845B4009E46A0 /* ViewController.swift in Sources */,
 				5F84C2F125D845B4009E46A0 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5F84C30025D845B6009E46A0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5F84C30925D845B6009E46A0 /* CAPSalgoTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5F84C30B25D845B6009E46A0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5F84C31425D845B6009E46A0 /* CAPSalgoUITests.swift in Sources */,
+				5FA6914925DBD3B100872018 /* help.swift in Sources */,
+				5FA6914725DBA68500872018 /* CameraLocation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		5F84C30625D845B6009E46A0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5F84C2EC25D845B4009E46A0 /* CAPSalgo */;
-			targetProxy = 5F84C30525D845B6009E46A0 /* PBXContainerItemProxy */;
-		};
-		5F84C31125D845B6009E46A0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5F84C2EC25D845B4009E46A0 /* CAPSalgo */;
-			targetProxy = 5F84C31025D845B6009E46A0 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5F84C2F425D845B4009E46A0 /* Main.storyboard */ = {
@@ -470,6 +328,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GYUKCUXPGG;
 				INFOPLIST_FILE = CAPSalgo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -488,6 +347,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GYUKCUXPGG;
 				INFOPLIST_FILE = CAPSalgo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -498,84 +358,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		5F84C31C25D845B6009E46A0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CAPSalgoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = tomsclayborne.CAPSalgoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CAPSalgo.app/CAPSalgo";
-			};
-			name = Debug;
-		};
-		5F84C31D25D845B6009E46A0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CAPSalgoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = tomsclayborne.CAPSalgoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CAPSalgo.app/CAPSalgo";
-			};
-			name = Release;
-		};
-		5F84C31F25D845B6009E46A0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CAPSalgoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = tomsclayborne.CAPSalgoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CAPSalgo;
-			};
-			name = Debug;
-		};
-		5F84C32025D845B6009E46A0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CAPSalgoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = tomsclayborne.CAPSalgoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CAPSalgo;
 			};
 			name = Release;
 		};
@@ -596,24 +378,6 @@
 			buildConfigurations = (
 				5F84C31925D845B6009E46A0 /* Debug */,
 				5F84C31A25D845B6009E46A0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5F84C31B25D845B6009E46A0 /* Build configuration list for PBXNativeTarget "CAPSalgoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5F84C31C25D845B6009E46A0 /* Debug */,
-				5F84C31D25D845B6009E46A0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5F84C31E25D845B6009E46A0 /* Build configuration list for PBXNativeTarget "CAPSalgoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5F84C31F25D845B6009E46A0 /* Debug */,
-				5F84C32025D845B6009E46A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

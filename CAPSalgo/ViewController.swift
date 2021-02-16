@@ -8,6 +8,8 @@
 
 import UIKit
 import MapKit
+//import Alamofire
+//import SwiftyJSON
 
 protocol HandleMapSearch {
     func dropPinZoomIn(placemark:MKPlacemark)
@@ -22,16 +24,24 @@ class ViewController: UIViewController {
     
     var resultSearchController:UISearchController? = nil
     
+    let cameras = GetCameraLocationList()
+    let dataStuff = [Camera]()
+    
+    
+   // let pins = CameraLocation()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        cameras.getAllCameras()
+            
+            
         let locationSearchTable = storyboard!.instantiateViewController(withIdentifier: "LocationSearchTable") as! LocationSearchTable
         resultSearchController = UISearchController(searchResultsController: locationSearchTable)
         resultSearchController?.searchResultsUpdater = locationSearchTable as? UISearchResultsUpdating
         
         let searchBar = resultSearchController!.searchBar
         searchBar.sizeToFit()
-        searchBar.placeholder = "Search for places"
+        searchBar.placeholder = "Search for cameras"
         navigationItem.titleView = resultSearchController?.searchBar
         
         resultSearchController?.hidesNavigationBarDuringPresentation = false
